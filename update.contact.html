@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Mobile Number</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <h1>Update Mobile Number</h1>
+  <form>
+    <div class="form-group">
+      <label for="registeredMobile">Registered Mobile Number:</label>
+      <input type="tel" id="registeredMobile" name="registeredMobile" placeholder="10-digit mobile number"><br>
+      <span class="optional">(OR)</span>
+    </div>
+    <div class="form-group">
+      <label for="lpgId">LPG ID:</label>
+      <input type="text" id="lpgId" name="lpgId" placeholder="Your LPG ID">
+    </div>
+    <p class="required">All fields marked with * are mandatory</p>
+    <div class="form-group">
+      <label for="state">State*:</label>
+      <select id="state" name="state">
+        <option value="">-Select-</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Assam">Assam</option>
+        </select>
+    </div>
+    <div class="form-group">
+      <label for="district">District*:</label>
+      <select id="district" name="district">
+        <option value="">-Select-</option>
+        </select>
+    </div>
+    <div class="form-group">
+      <label for="distributor">NpGasAgaency*:</label>
+      <select id="distributor" name="distributor">
+        <option value="">-Select-</option>
+        </select>
+    </div>
+    <div class="form-group">
+      <label for="consumerNumber">Consumer Number*:</label>
+      <input type="text" id="consumerNumber" name="consumerNumber" placeholder="Your consumer number">
+    </div>
+    <div class="form-group">
+      <label for="captcha">Enter the text from the image above:</label>
+      <input type="text" id="captcha" name="captcha">
+      <br><button type="button"><img src="logo1.png" alt="refresh">Refresh Image</button>
+    </div>
+    <button type="submit">Continue</button>
+  </form>
+</body>
+</html>

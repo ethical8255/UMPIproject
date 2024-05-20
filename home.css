@@ -1,0 +1,140 @@
+body {
+    margin: 0 auto;
+    padding: 0 0;
+  }
+  
+  header{
+    background-color : #fff;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  .ram-container {
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+  }
+  .logo {
+    flex-grow: 1;
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust height as needed */
+  }
+  
+  .Search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 650px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    padding: 10px;
+  }
+  
+  .icon-inactive{
+    height: 20px;
+    margin-bottom: auto;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav a:hover {
+    color: #d7bfbf;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    padding: 10px;
+    list-style: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-left: 30px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #eacfa2;
+    border-radius: 3px;
+    margin-left: 0;
+  }
+  
+  .search-bar button {
+    padding: 5px;
+    border: none;
+    background-color: #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 650px;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+    color: black;
+  }
+  
+  .social-icons a:hover {
+    color: #cccccc;
+  }
+  
+  /* Font Awesome icons (replace with your own font awesome kit if needed) */
+  
+  .fab {
+    font-family: FontAwesome;
+  }
+  
+  .fas {
+    font-family: FontAwesome;
+  }
+  
+  footer {
+    background-color: #333;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #f70000;
+    margin-top: 279px;
+}
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
